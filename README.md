@@ -15,10 +15,10 @@ Desenvolvimento de API para agrupamento de voos, conforme a ida, volta, tarifaç
 
 | Opera��o  |  | Entrada  | Sa�da  |
 | ------------ | ------------ | ------------ | 
-| **/getFlights**<br>(N/A) | <span style="color:green">**GET**</span>  |  (array com todos voos)    |
+| **/getFlights**<br>(N/A) | <span style="color:green">**GET**</span>  |  (array com todos voos)    | \* 
 | **/getFlights/groupFlight**<br>(N/A)  |  <span style="color:red">**GET**</span> |  (array com voos ordenados) |
 
 
 ## Authors
 
-* **RAMON MENDES** - *DEVELOPER* - **[LinkeDin]**(https://github.com/RamonSouzaDev/Back_End)
+* **RAMON MENDES** - *DEVELOPER* - **[LinkeDin]**(https://github.com/RamonSouzaDev/Back_End) \* 
