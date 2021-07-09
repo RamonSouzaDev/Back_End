@@ -3,17 +3,26 @@
 namespace Tests\Unit;
 
 use Tests\TestCase;
+use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use App\Models\Resources\Group;
 
-class ExampleTest extends TestCase
+
+class GroupOfTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testBasicTest()
+
+    /**
+    * @expectedException Exception
+    */
+
+    public function testTotalPrice()
     {
-        $this->assertTrue(true);
+        $group = new Group();
+        $group->getTotalPrice();
     }
 }
