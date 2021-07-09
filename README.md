@@ -15,8 +15,8 @@ Desenvolvimento de API para agrupamento de voos, conforme a ida, volta, tarifaç
 
 | Operação        | Entrada      | Saída |
 | ------|-----|-----|
-| **/getFlights**<br>(N/A) | <span style="color:green">**GET**</span>  |  (array com todos voos)    | 
-| **/getFlights/groupFlight**<br>(N/A)  |  <span style="color:red">**GET**</span> |  (array com voos ordenados) |
+| **/getFlights**<br> | <span style="color:green">**GET**</span>  |  (array com todos voos)    | 
+| **/getFlights/groupFlight**<br>  |  <span style="color:red">**GET**</span> |  (array com voos ordenados) |
 
 
 ## Authors
