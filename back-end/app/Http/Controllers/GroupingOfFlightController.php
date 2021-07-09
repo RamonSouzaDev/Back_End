@@ -21,7 +21,7 @@ class GroupingOfFlightController extends Controller
         return response()->json($flights);
     }
 
-    function grouping()
+    function groups()
     {
         $address = env('MILHAS_API_ADDRESS');
 
