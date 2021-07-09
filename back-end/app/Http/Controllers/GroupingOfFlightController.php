@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Services\FlightService;
 use App\Models\Resources\FlightGrouping;
-
+use App\Models\Resources\GroupOfFlight;
 
 class GroupingOfFlightController extends Controller
 {
@@ -29,7 +29,7 @@ class GroupingOfFlightController extends Controller
 
         $flights = json_decode($milhasApi->getFlights());
 
-        $flightGrouping = new FlightGrouping();
+        $flightGrouping = new GroupOfFlight();
 
         try
         {
