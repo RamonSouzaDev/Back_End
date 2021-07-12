@@ -53,18 +53,18 @@ class GroupOfFlight
         return $equalItems;
     }
 
-    function combineFlights($idas, $voltas)
+    function combineFlights($goings, $backs)
     {
         $groups = collect();
         
-        foreach($idas as $keyIda => $ida)
+        foreach($goings as $keyGo => $going)
         {
             
-            foreach($voltas as $keyVolta => $volta)
+            foreach($backs as $keyBack => $back)
             {        
                 $group = new Group();       
-                $group->outbound = $ida;
-                $group->inbound = $volta;
+                $group->outbound = $going;
+                $group->inbound = $back;
                 $group->getTotalPrice();
                 $groups = $groups->push($group);
             }  
